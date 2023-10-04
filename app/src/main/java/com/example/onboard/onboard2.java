@@ -6,15 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class onboard extends AppCompatActivity {
+public class onboard2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_onboard);
+        setContentView(R.layout.activity_onboard2);
     }
     public void onClick(View v) {
-        Intent intent = new Intent (this, onboard2.class);
+        Intent intent = new Intent (this, onboard3.class);
         startActivity(intent);
     }
 }

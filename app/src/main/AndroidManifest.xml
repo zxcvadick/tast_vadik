@@ -13,7 +13,19 @@
         android:theme="@style/Theme.Onboard"
         tools:targetApi="31">
         <activity
+            android:name=".onboardsecond"
+            android:exported="false" />
+        <activity
+            android:name=".adaptiveonboard"
+            android:exported="false" />
+        <activity
             android:name=".onboard"
+            android:exported="false" />
+        <activity
+            android:name=".onboard3"
+            android:exported="false" />
+        <activity
+            android:name=".onboard2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

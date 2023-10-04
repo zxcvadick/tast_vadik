@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/illustration1111" />
+        app:srcCompat="@drawable/screen" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/group12" />
+        app:srcCompat="@drawable/group3" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -58,6 +58,6 @@
         android:layout_marginEnd="177dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:srcCompat="@drawable/group11" />
+        app:srcCompat="@drawable/group2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
